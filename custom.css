@@ -1,0 +1,143 @@
+@font-face {
+    font-family: is;
+    font-style: normal;
+    font-weight: 300;
+    src: url('fonts/isansl.woff');
+    src: url('fonts/isansl.woff?#iefix') format('embedded-opentype'), /* IE6-8 */ url('fonts/isansl.woff') format('woff');
+}
+
+@font-face {
+    font-family: is;
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/isans.woff') format('woff');
+}
+
+@font-face {
+    font-family: is;
+    font-style: normal;
+    font-weight: 500;
+    src: url('fonts/isans-m.woff') format('woff');
+}
+
+@font-face {
+    font-family: is;
+    font-style: normal;
+    font-weight: bold;
+    src: url('fonts/isans-b.woff') format('woff');
+}
+
+*,table *{
+    font-family: is;
+    direction: rtl;
+    text-align: right;
+}
+
+table.noVpad td, table.noVpad th{
+    padding-right: 0;
+    padding-left: 0;
+}
+.clear{
+    clear: both !important;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.bordered{
+    border:1px solid #e1e1e1;
+}
+
+table {
+    margin-bottom: 1.5rem ;
+}
+
+code,pre{
+    text-align: left !important;
+    direction: ltr !important;
+}
+body{
+    margin: 2em !important;
+    color: #3e4d58 ;
+}
+
+/* Colors */
+.colBlack, .colBlack * {
+    color: #333 !important;
+}
+
+.colWhite, .colWhite * {
+    color: #fff !important;
+}
+
+.colSilver, .colSilver * {
+    color: #bdc3d3 !important;
+}
+
+.colLightSky, .colLightSky * {
+    color: #b4c9d7 !important;
+}
+
+.colSky, .colSky * {
+    color: #2ea6d8 !important;
+}
+
+.colGreen, .colGreen * {
+    color: #58ba01 !important;
+}
+
+.colOrange, .colOrange * {
+    color: #f9a63e !important;
+}
+
+.colRed, .colRed * {
+    color: #e15342 !important;
+}
+.bold{
+    font-weight: 700;
+}
+.ltr {
+    direction: ltr !important;
+}
+
+.rtl {
+    direction: rtl !important;
+}
+
+.text-center, .text-center * {
+    text-align: center !important;
+}
+
+.text-left, .text-left * {
+    text-align: left;
+}
+
+.text-right, .text-right * {
+    text-align: right;
+}
+
+
+/*  -------------------------------------------------  */
+.widget{
+    background: #d1d1d1;
+    border-radius: 15px;
+    border: solid 1px #bdc3d3;
+    margin-bottom: 8px;
+    margin-top: 8px;
+
+
+}
+.row .column{
+border: #bdc3d3 solid 1px;
+}
+.row {
+    border: #bdc3d3 solid 1px
+}
+.contact{
+    width: 30%;
+}

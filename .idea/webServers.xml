@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fe4f3629-6f3b-4632-b3a7-6c1237e0cee3" name="amir.exp" url="http://amir.exp">
+        <fileTransfer port="0" mountedRoot="C:\xampp\htdocs\amir.exp" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
