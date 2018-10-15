@@ -1,7 +1,7 @@
 <?php
 
    include "dbconnections.php";
-    class Model{
+    class User {
 
         public static $table = "users";
 
@@ -30,6 +30,5 @@
     }
 
 
-//$model = new Model();
+//$model = new User();
 //var_dump($model->all());
-
